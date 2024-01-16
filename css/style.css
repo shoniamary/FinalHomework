@@ -100,13 +100,7 @@ header {
 
 }
 
-/* .section1_content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    row-gap: 48px;
-} */
+
 
 .section1_p {
     color: #FFF;
@@ -182,7 +176,6 @@ header {
     width: 200px;
     height: 42px;
     border-radius: 8px;
-    display: flex;
     background-color: #FFF;
     display: flex;
     justify-content: center;
@@ -315,7 +308,7 @@ header {
 
 }
 
-.section4_search_mail {
+.search_input{
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -356,7 +349,7 @@ header {
 footer {
     display: flex;
     background: #402101;
-    padding: 80px 120px;
+    /* padding: 80px 120px; */
     justify-content: space-between;
     align-items: flex-start;
 
