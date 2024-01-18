@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,84 +17,131 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
+
 <body>
     <div class="container">
-     <!-- header -->
-     <header>
-        <div class="burger">
-            <a href=""><img src="images/headerburger.svg" alt=""></a>
-        </div>
-        <div class="xmark">
-            <a href=""><img src="images/headerxmark.svg" alt=""></a>
-        </div>
-        <div>
-            <nav>
-                <ul class="header_ul">
-                    <li><a href="index.html" class="no_active">Home</a></li>
-                    <li><a href="about.html" class="no_active">Artworks</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="hedder_logo"><a href=""><img src="images/headerlogo.svg" alt=""></a></div>
-        <div class="header_right">
-            <a href="" class="header_sighnin">Sign In</a>
-            
-            <a href=""><img src="images/headershoppingcart.svg" alt=""></a>
-        </div>
-    </header>
-    <!-- section1 -->
-    <!-- footer -->
-    <footer>
-        <div class="footer_left_side">
-            <div class="footer_left_navigation">
-                <a href="">
-                    <h4  class="footer_left_navigation_title">Help</h4>
-                </a>
+        <!-- header -->
+        <header>
+            <div class="burger">
+                <a href=""><img src="images/headerburger.svg" alt=""></a>
+            </div>
+            <div class="xmark">
+                <a href=""><img src="images/headerxmark.svg" alt=""></a>
+            </div>
+            <div>
                 <nav>
-                    <ul class="header_left_nav_ul">
-                        <li class="header_left_nav_li1">
-                            <a href="" class="header_left_nav_li ">Help Centre</a>
-                        </li>
-                        <li class="header_left_nav_li2">
-                            <a href="" class="header_left_nav_li ">Privacy Settings</a>
-                        </li>
+                    <ul class="header_ul">
+                        <li><a href="index.html" class="no_active">Home</a></li>
+                        <li><a href="about.html" class="no_active">Artworks</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="footer_socialnet_icones">
-                <a href=""><img src="images/logos_youtube.svg" alt="">
-                </a>
-                <a href="" ><img src="images/skill-icons_instagram.svg" alt="" class="footer_middle_social_icon">
-                </a>
-                <a href=""> <img src="images/logos_facebook.svg" alt="">
-                </a>
-            </div>
-        </div>
-        <a href="" class="hedder_logo">
-            <p class="logo_text1">Earthly <span class="logo_text2">Artisry</span></p>
-        </a>
-        <div class="footer_right_side">
-            <div class="footer_rightside_icones">
-                <a href="tel:+123 45 67  89"><img src="images/footermobileicon.svg" alt=""></a>
-                <a href="mailto:example@mail.com"><img src="images/footeremailicon.png" alt=""></a>
-                <a href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.7945746,17z/data=!3m1!4b1!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?entry=ttu"
-                    target="_blank"><img src="images/footerlocation.png" alt=""></a>
-            </div>
-           <div class="footer_right_navigation">
-            <nav>
-                <ul class="footer_right_ul">
-                    <li  ><a href="tel:+123 45 67  89" class="footer_right_li_text">+123 45 67 89</a></li>
-                    <li class="footer_right_li_middletext"><a href="mailto:example@mail.com"
-                            class="footer_right_li_text ">example@mail.com</a></li>
-                    <li ><a href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.7945746,17z/data=!3m1!4b1!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?entry=ttu"
-                            class="footer_right_li_text" target="_blank">Rustaveli avenue, 30</a></li>
-                </ul>
-            </nav>
-           </div>
-        </div>
+            <div class="hedder_logo"><a href=""><img src="images/headerlogo.svg" alt=""></a></div>
+            <div class="header_right">
+                <a href="" class="header_sighnin">Sign In</a>
 
-    </footer>
+                <a href=""><img src="images/headershoppingcart.svg" alt=""></a>
+            </div>
+        </header>
+        <!-- section1 -->
+        <section class="contact_section1">
+           
+            <div class="contact_form_container">
+                <h6 class="contact_form_title">Get in Touch</h6>
+                <div class="contact_form_content">
+                    <div class="contact_name_emailform">
+                        <form name="name_emailform" class="name_emailform">
+                            <input type="text" placeholder="Full Name" name="name" class="name_emailinput">
+                        </form>
+                        <form name="name_emailform" class="name_emailform">
+                            <input type="text" placeholder="Email" name="email" class="name_emailinput">
+                        </form>
+                    </div>
+                    <textarea name="textarea" id="textarea_contact" cols="30" rows="10" placeholder="Message"></textarea>
+
+                    <button type="submit"  name="button_submit" class="contact_form_btn">SUBMIT</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- contact section2 -->
+        <section class="contact_section2">
+            <h5 class="section2_title">Contact</h5>
+            <div class="contact_section2_content">
+                
+                <div class="contact_section2_content_navigtaion">
+                    <div class="section2_contact_nav">
+                        <img src="images/contactmobileicon.svg" alt="">
+                       <a href="tel:+123 45 67  89"> <h5 class="section2_contact_nav_text">Call Us</h5></a>
+                    </div>
+                    <div class="section2_contact_nav">
+                        <img src="images/contactemailicon.svg" alt="">
+                      <a href="mailto:example@mail.com">  <h5 class="section2_contact_nav_text">Email Us</h5></a>
+                    </div>
+                    <div class="section2_contact_nav">
+                        <img src="images/contactlocationicon.svg" alt="">
+                        <a href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.7945746,17z/data=!3m1!4b1!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?entry=ttu"><h5 class="section2_contact_nav_text">Address</h5></a>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.911230291333!2d44.794574600000004!3d41.700852000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd1af7ece7%3A0xa0647da208fff81e!2s30%20Shota%20Rustaveli%20Ave%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1705608151791!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+           
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="footer_left_side">
+                <div class="footer_left_navigation">
+                    <a href="">
+                        <h4 class="footer_left_navigation_title">Help</h4>
+                    </a>
+
+                    <nav>
+                        <ul class="header_left_nav_ul">
+                            <li class="header_left_nav_li1">
+                                <a href="" class="header_left_nav_li ">Help Centre</a>
+                            </li>
+                            <li class="header_left_nav_li2">
+                                <a href="" class="header_left_nav_li ">Privacy Settings</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_socialnet_icones">
+                    <a href=""><img src="images/logos_youtube.svg" alt="">
+                    </a>
+                    <a href=""><img src="images/skill-icons_instagram.svg" alt="" class="footer_middle_social_icon">
+                    </a>
+                    <a href=""> <img src="images/logos_facebook.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <a href="" class="hedder_logo">
+                <p class="logo_text1">Earthly <span class="logo_text2">Artisry</span></p>
+            </a>
+            <div class="footer_right_side">
+
+                <div class="footer_rightside_icones_text1"><a href="tel:+123 45 67  89"><img
+                            src="images/footermobileicon.svg" alt=""></a>
+                    <a href="tel:+123 45 67  89" class="footer_right_text">+123 45 67 89</a>
+                </div>
+                <div class="footer_rightside_icones_text1"><a href="mailto:example@mail.com"><img
+                            src="images/footeremailicon.png" alt=""></a>
+                    <a href="mailto:example@mail.com" class="footer_right_text ">example@mail.com</a>
+                </div>
+
+                <div class="footer_rightside_icones_text1"> <a
+                        href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.7945746,17z/data=!3m1!4b1!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?entry=ttu"
+                        target="_blank"><img src="images/footerlocation.png" alt=""></a>
+                    <a href="https://www.google.com/maps/place/30+Shota+Rustaveli+Ave,+T'bilisi/@41.700852,44.7945746,17z/data=!3m1!4b1!4m6!3m5!1s0x40440cdd1af7ece7:0xa0647da208fff81e!8m2!3d41.700852!4d44.7945746!16s%2Fg%2F11g_7kst5?entry=ttu"
+                        class="footer_right_text" target="_blank">Rustaveli avenue, 30</a>
+
+                </div>
+
+            </div>
+
+        </footer>
     </div>
 </body>
+
 </html>
