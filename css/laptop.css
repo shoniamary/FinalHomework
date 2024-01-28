@@ -1,0 +1,115 @@
+@media (max-width: 1330px){
+/* {section3 */
+    .section3_content{
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 1320px){
+    /* section3 */
+    .section3{
+        padding-inline: 32px 0px;
+    }
+    .section3_content{
+        overflow-x: scroll;
+    }
+    .section3_card{
+        flex: 1 0 282px;
+    }
+}
+    
+
+
+@media (max-width: 1025px){
+
+/* {header */
+    header{
+        padding-inline: 32px;
+    }
+    /* footer */
+    footer{
+        padding: 32px 80px;
+    }
+}
+@media (max-width: 990px){
+    /* footer */
+    footer{
+        padding: 24px 87px;
+    }
+}
+
+@media (max-width: 900px){
+ /* {header */
+    .burger{
+        display: block;
+    }
+    .logo_text1{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_nav{
+        position: fixed;
+        top: 96px;
+        left: -100%;
+        background-color: #B53B1B;
+        width: 50%;
+        padding: 25px 0 25px 20px;
+        transition: .5s linear;
+    }
+    .show{
+        left: 0;
+    }
+    .header_ul{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    /* section2 */
+    .section2{
+        height: 588px;
+    }
+    .section2_img{
+        width: 180px;
+        height: 162px;
+        border-radius: 24px;
+    }
+    .section2_text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .section2_text_div{
+        width: 141px;
+        height: 40px;
+    }
+    /* footer */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 32px;
+        padding: 123px 32px;
+    }
+    .footer_left_navigation_title,
+    .header_left_nav_li{
+    line-height: normal;
+    }
+    .footer_left_navigation_title{
+        text-align: center;
+    }
+    .header_left_nav_ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_socialnet_icones{
+        column-gap: 27px;
+    }
+    .footer_right_side{
+        flex-direction: row;
+        column-gap: 24px;
+    }
+    .footer_right_text{
+        display: none;
+    }
+
+}

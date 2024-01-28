@@ -1,0 +1,33 @@
+@media (max-width: 430px) {
+
+    /* section1 */
+    .section1_p {
+        font-size: 28px;
+
+    }
+
+    /* section2 */
+    .section2_img {
+        width: 133px;
+        height: 120px;
+
+    }
+
+    .section2_text {
+        font-size: 10px;
+
+    }
+
+    .section2_text_div {
+        width: 90px;
+
+    }
+    /* about_section1 */
+.search_input_about{
+    width: 100%;
+}
+.about_search_btn{
+    padding: 15px 7px 16px;
+    border-radius: 0px 10px 10px 0px;
+}
+}
