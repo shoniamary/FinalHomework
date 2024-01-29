@@ -583,26 +583,15 @@ footer {
 
 /* about_section2  */
 .about_section2 {
-
+    display: flex;
     padding: 120px;
     background: #EA904F;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 72px;
 
 
-}
-
-
-.about_section2_9cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    row-gap: 40px;
-    column-gap: 24px;
 }
 
 .about_section2_content_title_sort {
@@ -625,8 +614,6 @@ footer {
 
 }
 
-
-
 .section2_sort_text {
 
     display: flex;
@@ -637,23 +624,45 @@ footer {
     align-items: center;
     padding: 8px 21px;
     border-radius: 5px;
-    column-gap: 24px;
     border: 2px solid #B53B1B;
     background: #FFF;
 
 
 }
-.section2_sort_text:hover{
+
+.section2_sort_text:hover {
     filter: drop-shadow(0px 0px 9px rgb(137, 86, 50));
 
 }
-.about_secrtion2_button_text{
+
+.about_secrtion2_button_text {
     color: #402101;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
+}
+
+.about_section2_sortimg {
+    width: 29px;
+    height: 29px;
+}
+
+.about_section2_card_img {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+
+}
+
+.about_section2_9cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    column-gap: 24px;
 }
 
 
@@ -664,13 +673,13 @@ footer {
     flex-direction: column;
     gap: 16px;
     background: #FFF;
-    width: 384px;
     padding: 16px;
 
 }
-.about_section2_card:hover{
+
+.about_section2_card:hover {
     box-shadow: 0px 0px 9px 3px rgb(137, 86, 50);
-    color: #a26629e6;  
+    color: #a26629e6;
 }
 
 
@@ -698,17 +707,13 @@ footer {
     align-items: baseline;
     justify-content: space-between;
 }
-.about_section2_carticon:hover{
+
+.about_section2_carticon:hover {
     filter: drop-shadow(0px 0px 9px rgb(137, 86, 50));
 }
 
-.about_section2_card_img {
-   width: 100%;
-    height: 224px;
-    object-fit: cover;
-   
-}
-.pagination{
+
+.pagination {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -732,15 +737,18 @@ footer {
     background: #B53B1B;
     ;
 }
-.active_pagination:hover{
+
+.active_pagination:hover {
     background: #B53B1B;
     color: #e9f2f4;
     cursor: pointer;
 }
-.pagination_numb:hover{
+
+.pagination_numb:hover {
     background: #B53B1B;
     color: #e9f2f4;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 /* contact page */
 /* contact_section1 */
@@ -750,19 +758,16 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 120px 718px 160px 222px;
+    padding-left: 222px;
+    display: flex;
+    align-items: center;
 
 }
 
 .contact_form_container {
-    display: flex;
-    flex-direction: column;
+
     width: 500px;
-    height: 400px;
-    align-items: flex-start;
-    padding-inline: 30px;
-    justify-content: center;
-    row-gap: 36px;
+    padding: 24px 30px;
     border-radius: 10px;
     border: 1px solid #FFF;
     background: rgba(64, 33, 1, 0.90);
@@ -778,12 +783,12 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 48px;
+    margin-bottom: 40px;
 }
 
 .contact_form_content {
     display: flex;
     flex-direction: column;
-
     row-gap: 36px;
 
 }
@@ -852,10 +857,14 @@ footer {
     line-height: 19px;
 }
 
+.contact_form_btn:hover {
+    color: hsl(7, 40%, 45%);
+    background-color: #D5906E;
+}
+
 /* contact section2  */
 .contact_section2 {
     height: 648px;
-    padding: 120px 324px;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -864,9 +873,9 @@ footer {
     background: #EA904F;
 }
 
-.contact_section2_content {
-    display: flex;
-    column-gap: 94px;
+.contact_section2_img:hover {
+    box-shadow: 0px 0px 9px 3px rgb(137, 86, 50);
+    color: #a26629e6;
 }
 
 .section2_title {
@@ -880,10 +889,19 @@ footer {
 
 }
 
+.contact_section2_content {
+    display: flex;
+    column-gap: 94px;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact_section2_content_navigtaion {
     display: flex;
     flex-direction: column;
     row-gap: 72px;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .section2_contact_nav {
@@ -900,7 +918,10 @@ footer {
     font-weight: 700;
     line-height: normal;
 }
-
+.section2_contact_nav_text :hover{
+    text-shadow: 0px 0px 9px #8e4a41;
+    color: #8e4a41;
+}
 .map {
     width: 560px;
     height: 320px;

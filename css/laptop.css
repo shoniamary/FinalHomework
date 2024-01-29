@@ -45,6 +45,10 @@
 .about_section2{
     padding-inline: 32px;
 }
+/* contact_section1 */
+.contact_section1{
+    padding-left: 32px;
+}
 }
 
 @media (max-width: 900px){
@@ -120,5 +124,23 @@
     .footer_right_text{
         display: none;
     }
-
+    /* contact_section2 */
+    .contact_section2{
+      padding-inline: 24px;
+    }
+    .contact_section2_content{
+        flex-direction: column;
+        row-gap: 40px;
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+        height: 320px;
+    }
+    .contact_section2_content_navigtaion{
+        flex-direction: row;
+    }
+    .section2_contact_nav_text{
+        display: none;
+    }
 }

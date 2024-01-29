@@ -26,6 +26,7 @@
 .about_section2{
     padding-inline: 24px;
 }
+
 @media (max-width: 745px){
     /* about_section2 */
     .about_section2_content_title_sort{
@@ -39,6 +40,10 @@
         font-size: 16px;
         line-height: 24px;
     }
+    /* contact_section1 */
+.contact_section1{
+    padding: 160px 220px 160px 24px;
+}
 }
 
 }
@@ -60,7 +65,16 @@
         padding: 15px 53px 15px 54px;
         border-radius: 0px 10px 10px 0px;
     }
-   
+      /* contact_section1 */
+.contact_section1{
+    height: 560px;
+    padding-inline: 24px;
+
+}
+.contact_form_title{
+    font-size: 32px;
+    line-height: normal;
+}
 
     
 }
@@ -99,5 +113,11 @@
  /* footer */
  footer{
     padding: 32px 0;
+}
+.contact_section1{
+    padding: 80px 24px 80px 24px;
+}
+.contact_form_container{
+    padding: 24px 20px;
 }
 }
