@@ -16,6 +16,10 @@
     .section3_card{
         flex: 1 0 282px;
     }
+    /* about_section2 */
+    .displey_none{
+        display: none;
+    }
 }
     
 
@@ -30,12 +34,17 @@
     footer{
         padding: 32px 80px;
     }
+    /* about_section2 */
+
 }
 @media (max-width: 990px){
     /* footer */
     footer{
         padding: 24px 87px;
     }
+.about_section2{
+    padding-inline: 32px;
+}
 }
 
 @media (max-width: 900px){

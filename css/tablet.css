@@ -22,6 +22,24 @@
 .search_input_about{
     width: 408px;
 }
+/* about_section2 */
+.about_section2{
+    padding-inline: 24px;
+}
+@media (max-width: 745px){
+    /* about_section2 */
+    .about_section2_content_title_sort{
+        column-gap: 24px;
+    }
+    .about_section2_content_title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_secrtion2_button_text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
 
 }
 @media (max-width: 620px){
@@ -42,6 +60,8 @@
         padding: 15px 53px 15px 54px;
         border-radius: 0px 10px 10px 0px;
     }
+   
+
     
 }
 @media (max-width: 550px)
