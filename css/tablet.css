@@ -26,6 +26,7 @@
 .about_section2{
     padding-inline: 24px;
 }
+}
 
 @media (max-width: 745px){
     /* about_section2 */
@@ -40,13 +41,15 @@
         font-size: 16px;
         line-height: 24px;
     }
-    /* contact_section1 */
-.contact_section1{
-    padding: 160px 220px 160px 24px;
-}
-}
+    .section1{
+        height: 304px;
+    }
+    .section2{
+        height: 476px;
+    }
 
 }
+
 @media (max-width: 620px){
     .about_section1{
         height: 400px;
