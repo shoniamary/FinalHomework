@@ -1,22 +1,22 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    margin-top: 96px;
+    padding-top: 96px;
 }
 
 /* header */
+
 header {
-    background: #402101;
-    backdrop-filter: blur(4px);
-    padding-inline: 120px;
+    background-color: #402101;
     display: flex;
-    height: 96px;
     justify-content: space-between;
     align-items: center;
+    height: 96px;
+    padding-inline: 120px;
     position: fixed;
-    top: 0;
-    max-width: inherit;
     width: inherit;
+    max-width: inherit;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -24,42 +24,43 @@ header {
 
 .burger,
 .xmark {
+    font-size: 32px;
+    color: #FFFFFF;
     display: none;
+}
 
+.header_logo_respon {
+    display: none;
 }
 
 .header_ul {
     display: flex;
     column-gap: 60px;
 }
+.active,
+.noactive {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
 
 .active {
     color: #D5906E;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.no_active {
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .active:hover,
-.no_active:hover {
-    text-shadow: 0 0 7px #D5906E, 0 0 14px #EA904F, 0 0 21px #FF543E;
-    color: rgba(213, 144, 110, 0.52)
+.noactive:hover {
+    text-shadow: 0 0 5px #841320, 0 0 10px #ca0505, 0 0 20px #3e0404;
+    color: rgb(32, 4, 4);
 }
 
 .logo_text1 {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -67,40 +68,44 @@ header {
     word-spacing: -17px;
 }
 
-.logo_text2 {
+.text_logo2 {
     color: #D5906E;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
+
 .logo_text1:hover {
-    filter: drop-shadow(0 7px 7px rgb(190, 86, 9));
+    filter: drop-shadow(0 5px 10px rgb(189, 86, 8));
 }
 
-.header_right {
+
+.user_cart {
     display: flex;
     column-gap: 16px;
+    align-items: center;
 }
 
-.header_sighnin {
+.header_text {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.header_sighnin:hover {
-    text-shadow: 0 0 7px #D5906E, 0 0 14px #EA904F, 0 0 21px #FF543E;
-    color: rgba(213, 144, 110, 0.52)
+.header_text:hover {
+    text-shadow: 0 0 5px #841320, 0 0 10px #ca0505, 0 0 20px #3e0404;
+    color: rgb(32, 4, 4);
 }
 
-.cart:hover {
-    filter: drop-shadow(0 7px 7px rgb(190, 86, 9));
+.header_2icone:hover {
+    filter: drop-shadow(0 5px 10px rgb(189, 86, 8));
+
 }
 
 /* section1 */
@@ -238,14 +243,22 @@ header {
 }
 
 /* section3 */
-.section3 {
-    background: #402101;
+.section_three {
+
     padding: 120px;
+    background: #402101;
 }
 
-.section3_title {
+.section_three_img {
+    width: 100%;
+    height: 184px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.section_three_title {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -260,69 +273,65 @@ header {
 }
 
 .section3_card {
-    width: 282px;
-    background-color: #FFF;
     display: flex;
+    width: 282px;
+    padding: 16px;
     flex-direction: column;
     row-gap: 16px;
-    padding: 16px;
     border-radius: 8px;
-
+    background: #FFF;
 }
 
 .section3_card:hover {
-    box-shadow: 0px 0px 9px 3px rgb(137, 86, 50);
-
+    box-shadow: 0px 0px 8px 4px rgba(187, 23, 23, 0.8);
+    border: none;
 }
 
-.section3_img {
-    width: 100%;
-    height: 184px;
-    object-fit: cover;
-    border-radius: 8px 8px 0px 0px;
-}
-
-.section3_card_content_title {
+.section3_text {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    margin-bottom: 24px;
+    margin-bottom: 37px;
 }
 
-.section3_card_price_addbutton {
+.section_three_price_button {
     display: flex;
     justify-content: space-between;
+
 }
 
 .section3_card_price {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
 }
 
-.section3_add_button {
+.section_3_price_button {
     border-radius: 8px;
     background: #B53B1B;
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
     border: none;
     padding: 6px 19px;
+
+
 }
 
-.section3_add_button:hover {
-    box-shadow: 0px 0px 9px 3px rgb(137, 86, 50);
-    color: #b98d61e6;
+.section_3_price_button:hover {
+    box-shadow: inset 119px 0 0 0 #3e0117;
+    color: #05BCCA;
 }
+
 
 /* section4 */
 .section4 {
@@ -407,102 +416,95 @@ header {
 
 
 /* footer */
-footer {
+.footer_one {
     display: flex;
-    background: #402101;
     padding: 80px 120px;
     justify-content: space-between;
     align-items: flex-start;
-
-
+    background: #402101;
 }
 
-.footer_left_side {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.footer_left_navigation_title {
+.footer_title {
     color: #FFF;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 16px;
-
 }
 
-.footer_left_navigation_title:hover {
-    text-shadow: 0px 0px 9px #8e4a41;
-    color: #8e4a41;
+.footer_title:hover {
+    text-shadow: 0 0 5px #841320, 0 0 10px #ca0505, 0 0 20px #3e0404;
+    color: rgb(32, 4, 4);
 }
 
-.header_left_nav_li {
+.footer_left_li_text {
     color: #FFF;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+
 }
 
-.header_left_nav_li:hover {
-    text-shadow: 0px 0px 9px #8e4a41;
-    color: #8e4a41;
+.footer_left_li_text:hover {
+    text-shadow: 0 0 5px #841320, 0 0 10px #ca0505, 0 0 20px #3e0404;
+    color: rgb(32, 4, 4);
 }
 
-.header_left_nav_li2 {
 
+.footer_left_li2 {
     margin-top: 8px;
     margin-bottom: 32px;
 }
 
-.footer_socialnet_icones {
+.footer_social_icones {
     display: flex;
     column-gap: 24px;
 }
 
-.footer_soc_icon:hover {
-    filter: drop-shadow(0px 0px 9px rgb(137, 86, 50));
-
+.footer_social_icones2:hover {
+    filter: drop-shadow(0 5px 10px rgb(189, 86, 8));
 }
 
-.footer_right_side {
+.footer_logo:hover {
+    filter: drop-shadow(0 5px 10px rgb(189, 86, 8));
+}
+
+
+.footer_div_two {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     row-gap: 8px;
-
 }
 
-
-.footer_rightside_icones_text1 {
+.footer_rightside_icones {
     display: flex;
-    column-gap: 16px;
     align-items: center;
     justify-content: center;
+    column-gap: 16px;
 }
 
-.footer_icon:hover {
-    filter: drop-shadow(0px 0px 9px rgb(137, 86, 50));
+.footer_icones1:hover {
+    filter: drop-shadow(0 5px 10px rgb(189, 86, 8));
 }
 
-.footer_right_text {
+.footer_right_side_text {
     color: #FFF;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
-
 }
 
-.footer_right_text:hover {
-    text-shadow: 0px 0px 9px #8e4a41;
-    color: #8e4a41;
+.footer_right_side_text:hover {
+    text-shadow: 0 0 5px #841320, 0 0 10px #ca0505, 0 0 20px #3e0404;
+    color: rgb(32, 4, 4);
 }
 
 /* about_section1 */
@@ -798,7 +800,7 @@ footer {
     column-gap: 60px;
 }
 
-.name_emailform ::placeholder {
+.name_emailinput::placeholder {
     color: rgba(255, 255, 255, 0.76);
     font-family: Inter;
     font-size: 14px;
